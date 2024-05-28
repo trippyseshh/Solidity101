@@ -1,2 +1,2 @@
-# Solifity101
+# Solidity101
 Learning Solidity 101
