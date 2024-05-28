@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-contract structs{
+contract SimpleStorage{
     // creating a struct
     struct people{
         int age;
