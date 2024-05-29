@@ -1,0 +1,19 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+import {SimpleStorage1} from "./SimpleStorage.sol";
+
+contract SimpleForest{
+    // creating a variable for Simple Storage contract
+
+    SimpleStorage1[] public listOfAllAddresses;
+
+    // creating a function to deploy this SS1
+    function deploySS1() public{
+        SimpleStorage1 newContract = new SimpleStorage1();
+
+        // adding to array
+        listOfAllAddresses.push(newContract);
+    }
+
+}
